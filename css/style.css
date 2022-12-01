@@ -1,0 +1,44 @@
+.title{
+    background-color: #DCDCDC;
+
+}
+.item{
+    position: relative;
+    cursor: pointer;
+}
+.caption{
+    position: absolute;
+    bottom: -50px;
+    right: 15px;
+    left: 15px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.item:hover .caption{
+      bottom: 15px;
+      opacity: 1;
+}
+/* boxContainer */
+#boxContainer{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+   
+}
+
+#innerBox{
+    background-image: url(../imgs/prof.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 500px;
+}
+
+#innerBox i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
